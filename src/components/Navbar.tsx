@@ -45,10 +45,10 @@ const Navbar: React.FC<NavbarProps> = () => {
         <>
           <div className="flex space-x-5 md:space-x-10">
             <Link to="/Signin">
-              <button className="text-white md:text-xl p-4">SignIn</button>
+              <button className="text-white md:text-xl p-2">SignIn</button>
             </Link>
             <Link to="/Signup">
-              <button className="bg-red-700 px-4 text-white rounded-md md:text-xl md:p-4">
+              <button className="bg-red-700 p-2 text-white rounded-md md:text-xl md:p-4">
                 SignUp
               </button>
             </Link>
